@@ -1,5 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
 
+
+:root {
+  --primary-color: #006BF6;
+  --secondary-color: #1A237E;
+  --background-color: #FFFF;
+  --text-color: #FFFF;
+  --secondary-text-color: #000;
+  
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -168,7 +178,7 @@ form.sign-in-form {
   top: -10%;
   right: 48%;
   transform: translateY(-50%);
-  background-image: linear-gradient(-45deg, #4481eb 0%, #04befe 100%);
+  background-image: linear-gradient(180deg, var(--primary-color), var(--secondary-color));
   transition: 1.8s ease-in-out;
   border-radius: 50%;
   z-index: 6;
